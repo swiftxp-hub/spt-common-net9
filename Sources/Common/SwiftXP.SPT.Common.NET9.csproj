@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+
+    <AssemblyName>SwiftXP.SPT.Common.NET9</AssemblyName>
+    <Product>SPT Common.NET9</Product>
+    <RootNamespace>SwiftXP.SPT.Common.NET9</RootNamespace>
+    <OutputType>Library</OutputType>
+
+    <RestoreAdditionalProjectSources>
+      https://api.nuget.org/v3/index.json;
+      https://nuget.bepinex.dev/v3/index.json
+    </RestoreAdditionalProjectSources>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AnalysisLevel>latest-Recommended</AnalysisLevel>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <LicenseToolPath>$(HOME)/.dotnet/tools/dotnet-project-licenses</LicenseToolPath>
+    <LicenseToolPath Condition="'$(OS)' == 'Windows_NT'">
+      $(UserProfile)\.dotnet\tools\dotnet-project-licenses.exe</LicenseToolPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SPTarkov.DI" Version="4.0.12" />
+  </ItemGroup>
+  
+</Project>

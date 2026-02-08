@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Sources/">
+    <Project Path="Sources/Common/SwiftXP.SPT.Common.NET9.csproj" />
+  </Folder>
+
+  <Folder Name="/Tests/">
+    <Project Path="Tests/Common.Tests/SwiftXP.SPT.Common.NET9.Tests.csproj" />
+  </Folder>
+</Solution>

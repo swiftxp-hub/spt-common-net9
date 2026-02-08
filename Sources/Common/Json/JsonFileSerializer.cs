@@ -3,7 +3,7 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SwiftXP.SPT.Common.Json;
+namespace SwiftXP.SPT.Common.NET9.Json;
 
 #if NET9_0_OR_GREATER
 [SPTarkov.DI.Annotations.Injectable(SPTarkov.DI.Annotations.InjectionType.Singleton)]

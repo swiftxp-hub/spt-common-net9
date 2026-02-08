@@ -1,7 +1,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SwiftXP.SPT.Common.Json;
+namespace SwiftXP.SPT.Common.NET9.Json;
 
 public interface IJsonFileSerializer
 {
